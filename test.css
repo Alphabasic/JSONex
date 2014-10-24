@@ -1,0 +1,57 @@
+html{
+     display: table;
+    margin: 0 auto;
+    min-height: 100%;
+    background: #ffffff  url('images/kraft.jpg') repeat;
+}
+
+body {
+    width:1100px;
+    display: table-cell;
+    min-height: 100%;
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: -15px 0 15px -13px rgba(0, 0, 0, 0.6),
+    15px 0 15px -12px rgba(0, 0, 0, 0.6);
+
+}
+
+.flexArea{
+    width:1100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    min-height: 48em;
+}
+
+.flexArea div {
+    background: rgba(255, 255, 255, 0.85);
+    height: 185px;
+    width: 100px;
+    margin: 2px;
+    transition: .75s background ease;
+}
+.flexArea>div:nth-child(3){
+    background: rgba(255, 255, 255, 0);
+    width: 500px;
+    min-height: 275px;
+}
+#main{
+    width: auto;
+    height: 100%;
+}
+#main img{
+    height: 100px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.ph{height: 215px !important;}
+.ph img{width: 90px;
+    margin: 2px;
+    border-radius: 5px;}
+#toggle {height: 50px;
+width: auto}
+.highlight {
+    background-color: rgba(170, 255, 203, 0.80) !important;
+    transition: .75s all ease;
+}
